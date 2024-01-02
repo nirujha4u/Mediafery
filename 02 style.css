@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url(./../Images/bkg-lightgray.jpg);
+    background-size: cover;
+}
+
+.bar {
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+}
+
+.MF-logo {
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.loginbox {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 5px 2px #8f8c8c;
+}
+
+.logo {
+    width: 100%;
+    height: 90px;
+}
+
+.login-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-info {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid rgb(152, 144, 144);
+}
+
+.email {
+    width: 50px;
+    height: 33px;
+    background-color: #f1f1f1;
+}
+
+.email img {
+    width: 60%;
+}
+
+.email-info input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+.user {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid rgb(152, 144, 144);
+}
+
+.username {
+    width: 50px;
+    height: 33px;
+    background-color: #f1f1f1;
+}
+
+.username img {
+    width: 60%;
+}
+
+.user input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.password {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid rgb(176, 171, 171);
+}
+
+.pass {
+    width: 50px;
+    height: 33px;
+    background-color: #f1f1f1;
+}
+
+.pass img {
+    width: 50%;
+}
+
+.password input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.forgot-pass {
+    margin-top: 10px;
+}
+
+a {
+    color: #09A6F3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Registered{
+    margin-top: 10px;
+
+}
+
+.Registered span{
+    color: #8f8c8c;
+    font-size: 14px;
+    text-align: left;
+}
+
+.login-button{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    background-color: #ee8030;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #de7123;
+}

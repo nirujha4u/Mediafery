@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaFerry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/mf-logo.png">
+
+</head>
+<body>
+    <div class="bar">
+        <div class="MF-logo">
+            <img src="https://mcc.mediaferry.com/mcc/sitetheme_new/image/MFlogo.png">
+        </div>
+    </div>
+
+    <div class="container flex">
+        <div class="loginbox">
+            <div class="logo flex">
+                <img src="https://mcc.mediaferry.com/mcc/ajax/getSiteLogo/header_logo.png/MCC">
+            </div>
+            <hr>
+            <div class="login-info">
+                <div class="signin flex">
+                    <div class="google flex">
+                        <img src="./images/google-icon.png">
+                    </div>
+                    <input type="button" onclick="signin()" class="gbutton" value="SIGN IN WITH GOOGLE">
+                </div>
+
+                <div class="or">
+                    <p>or</p>
+                </div>
+
+                <div class="user flex">
+                    <div class="username flex">
+                        <img src="./images/email-icon.png">
+                    </div>
+                    <input type="email" placeholder="yours@example.com" id="user">
+                </div>
+
+                <div class="password flex">
+                    <div class="pass flex">
+                        <img src="./images/pass-icon.png">
+                    </div>
+                    <input type="password" placeholder="your password" id="pass">
+                </div>
+
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="Registered">
+                    <span>No Account Yet? </span><a href="./02 signup.html">Registered</a>
+                </div>
+
+            </div>
+            <div class="login-button">
+                <button id="login-btn">LOG IN ></button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="02 signup.js"></script> -->
+</body>
+</html>

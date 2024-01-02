@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaFerry</title>
+    <link rel="stylesheet" href="02 style.css">
+    <link rel="icon" href="./images/mf-logo.png">
+</head>
+<body>
+    <div class="bar">
+        <div class="MF-logo">
+            <img src="https://mcc.mediaferry.com/mcc/sitetheme_new/image/MFlogo.png">
+        </div>
+    </div>
+
+    <div class="container flex">
+        <div class="loginbox">
+            <div class="logo flex">
+                <img src="https://mcc.mediaferry.com/mcc/ajax/getSiteLogo/header_logo.png/MCC">
+            </div>
+            <hr>
+            <div class="login-info">
+
+                <div class="email-info flex">
+                    <div class="email flex">
+                        <img src="./images/email-icon.png">
+                    </div>
+                    <input type="email" placeholder="your email" id="emailid">
+                </div>
+
+                <div class="user flex">
+                    <div class="username flex">
+                        <img src="./images/user.png">
+                    </div>
+                    <input type="text" placeholder="user name" id="username">
+                </div>
+
+                <div class="password flex">
+                    <div class="pass flex">
+                        <img src="./images/pass-icon.png">
+                    </div>
+                    <input type="password" placeholder="your password" id="password">
+                </div>
+
+                <div class="Registered">
+                    <span>Already have an account? </span><a href="./index.html">signin</a>
+                </div>
+
+            </div>
+            <div class="login-button">
+                <button type="button" onclick="signup()">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="02 signup.js"></script>
+</body>
+</html>
